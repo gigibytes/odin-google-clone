@@ -1,0 +1,54 @@
+body {
+    color: #222;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+    display: flex;
+}
+
+header {
+    display: flex;
+    height: 60px;
+}
+
+.bar-link {
+    padding: 15px;
+}
+
+.bar-icon {
+    
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+#search-area {
+    margin: auto;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#gs-ifl-box {
+    display: flex;
+    justify-content: center;
+}
