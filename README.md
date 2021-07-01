@@ -8,5 +8,6 @@ TODO:
 - [ ] Add, style icons (GApps icon, User icon)
 - [ ] Add search bar
 - [ ] Position search bar
+- [ ] Final tweaks
 
 Bonus/Extra: Create a faux search page.

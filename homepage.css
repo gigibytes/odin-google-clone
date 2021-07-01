@@ -68,14 +68,39 @@ header {
     margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
 }
 
+#logo-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #gs-ifl-box {
     display: flex;
     justify-content: center;
+}
+
+#search-bar-box {
+    border-color: #dadce0;
+    border: 4px;
+    border-radius: 16px;
+    width: 50vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#search-icon {
+    color: #9AA0A6;
 }
