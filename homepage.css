@@ -85,13 +85,18 @@ header {
 }
 
 #search-bar-box {
-    border-color: #dadce0;
+    border-color: black;
     border: 4px;
     border-radius: 16px;
     width: 50vw;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
+}
+
+#search-bar {
+    flex-grow: 1;
+    
 }
 
 .search-box:hover {
