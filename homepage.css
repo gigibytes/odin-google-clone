@@ -30,15 +30,56 @@ footer {
 header {
     display: flex;
     height: 60px;
+padding: 10px;
 }
 
 .bar-link {
     padding: 15px;
 }
 
-.bar-icon {
-    
+#bar-app-icon {
+    padding: 10px;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5em;
 }
+
+#bar-app-icon:hover {
+    background-color: #eff0f0;
+    cursor: pointer;
+}
+
+#user-icon-bg {
+    margin-top: .5em;
+    margin-bottom: auto;
+    background-color: #bf360c;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#user-icon-bg:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 6px solid #eff0f0;
+}
+
+#user-icon-letter {
+    margin-top: auto;
+    margin-bottom: .3em;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: white;
+}
+
+
 
 .spacer {
     flex-grow: 1;
@@ -115,5 +156,8 @@ header {
 }
 
 #search-icon {
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: auto;
 }
